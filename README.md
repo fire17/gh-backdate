@@ -78,6 +78,8 @@ python3 backdate.py --script --years 10 --repo ~/path/to/repo --paint --intensit
 | [`animate.py`](animate.py) | slide a 53-week window across the tape → the scroll GIF |
 | [`commitgen.py`](commitgen.py) | the low-level painter: level-aware backdated `--allow-empty` commits |
 | [`gallery.py`](gallery.py) / [`build.py`](build.py) | regenerate every image in [`out/`](out/) |
+| [`smallfonts.py`](smallfonts.py) | 4-tall + 3-tall micro fonts — stack TWO text lines in one 7-row window |
+| [`modes.py`](modes.py) | canvas modes: `ghost "TEXT" -m 10` (temp text, detached auto-revert) · `starry --density N` (all-shade random noise) · `revert` — the default banner is always remembered |
 
 ## 🎨 The gallery (fonts, shadows, styles)
 
